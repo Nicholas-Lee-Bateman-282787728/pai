@@ -1,0 +1,1303 @@
+model_name;classifier;f1;accuracy;recall;precision;classification;confusion;sample_train;sample_test;time_processing
+Freq@0001@All;SVM;41.31;41.71;41.71;41.55;"              precision    recall  f1-score   support
+
+          -1       0.39      0.49      0.43        41
+           0       0.27      0.22      0.24        41
+           1       0.49      0.46      0.48        41
+
+    accuracy                           0.39       123
+   macro avg       0.38      0.39      0.38       123
+weighted avg       0.38      0.39      0.38       123
+";"[[20 20 11]
+ [13  9 11]
+ [ 8 12 19]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:54 sec
+Freq@0001@One;SVM;43.05;43.28;43.28;43.24;"              precision    recall  f1-score   support
+
+          -1       0.38      0.46      0.42        41
+           0       0.32      0.27      0.29        41
+           1       0.54      0.51      0.53        41
+
+    accuracy                           0.41       123
+   macro avg       0.41      0.41      0.41       123
+weighted avg       0.41      0.41      0.41       123
+";"[[19 20 11]
+ [14 11  9]
+ [ 8 10 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:54 sec
+Freq@0001@All;RandomForest;43.64;44.1;43.49;43.42;"              precision    recall  f1-score   support
+
+          -1       0.46      0.54      0.49        41
+           0       0.39      0.29      0.33        41
+           1       0.52      0.56      0.54        41
+
+    accuracy                           0.46       123
+   macro avg       0.46      0.46      0.46       123
+weighted avg       0.46      0.46      0.46       123
+";"[[22 17  9]
+ [10 12  9]
+ [ 9 12 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:9 sec
+Freq@0001@One;RandomForest;43.05;43.74;43.31;43.28;"              precision    recall  f1-score   support
+
+          -1       0.33      0.39      0.36        41
+           0       0.31      0.24      0.27        41
+           1       0.52      0.54      0.53        41
+
+    accuracy                           0.39       123
+   macro avg       0.39      0.39      0.39       123
+weighted avg       0.39      0.39      0.39       123
+";"[[16 23 10]
+ [13 10  9]
+ [12  8 22]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:8 sec
+Freq@0001@All;LogisticRegression;41.62;42.13;42.13;41.81;"              precision    recall  f1-score   support
+
+          -1       0.43      0.49      0.46        41
+           0       0.33      0.27      0.30        41
+           1       0.52      0.56      0.54        41
+
+    accuracy                           0.44       123
+   macro avg       0.43      0.44      0.43       123
+weighted avg       0.43      0.44      0.43       123
+";"[[20 17  9]
+ [13 11  9]
+ [ 8 13 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@0001@One;LogisticRegression;43.47;43.81;43.81;43.56;"              precision    recall  f1-score   support
+
+          -1       0.38      0.44      0.40        41
+           0       0.32      0.29      0.31        41
+           1       0.61      0.56      0.58        41
+
+    accuracy                           0.43       123
+   macro avg       0.43      0.43      0.43       123
+weighted avg       0.43      0.43      0.43       123
+";"[[18 20 10]
+ [17 12  8]
+ [ 6  9 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@0010@All;SVM;40.85;41.21;41.21;41.07;"              precision    recall  f1-score   support
+
+          -1       0.40      0.51      0.45        41
+           0       0.30      0.27      0.28        41
+           1       0.50      0.41      0.45        41
+
+    accuracy                           0.40       123
+   macro avg       0.40      0.40      0.40       123
+weighted avg       0.40      0.40      0.40       123
+";"[[21 20 11]
+ [13 11 13]
+ [ 7 10 17]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:53 sec
+Freq@0010@One;SVM;43.37;43.59;43.59;43.62;"              precision    recall  f1-score   support
+
+          -1       0.36      0.46      0.40        41
+           0       0.37      0.34      0.35        41
+           1       0.53      0.41      0.47        41
+
+    accuracy                           0.41       123
+   macro avg       0.42      0.41      0.41       123
+weighted avg       0.42      0.41      0.41       123
+";"[[19 20 14]
+ [14 14 10]
+ [ 8  7 17]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:53 sec
+Freq@0010@All;RandomForest;42.92;43.55;43.2;42.27;"              precision    recall  f1-score   support
+
+          -1       0.41      0.41      0.41        41
+           0       0.43      0.37      0.39        41
+           1       0.53      0.61      0.57        41
+
+    accuracy                           0.46       123
+   macro avg       0.46      0.46      0.46       123
+weighted avg       0.46      0.46      0.46       123
+";"[[17 14 10]
+ [14 15  6]
+ [10 12 25]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:9 sec
+Freq@0010@One;RandomForest;42.79;43.29;42.94;43.0;"              precision    recall  f1-score   support
+
+          -1       0.35      0.41      0.38        41
+           0       0.31      0.24      0.27        41
+           1       0.56      0.59      0.57        41
+
+    accuracy                           0.41       123
+   macro avg       0.41      0.41      0.41       123
+weighted avg       0.41      0.41      0.41       123
+";"[[17 22  9]
+ [14 10  8]
+ [10  9 24]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:11 sec
+Freq@0010@All;LogisticRegression;41.69;42.22;42.22;41.79;"              precision    recall  f1-score   support
+
+          -1       0.42      0.49      0.45        41
+           0       0.33      0.29      0.31        41
+           1       0.54      0.51      0.53        41
+
+    accuracy                           0.43       123
+   macro avg       0.43      0.43      0.43       123
+weighted avg       0.43      0.43      0.43       123
+";"[[20 18 10]
+ [14 12 10]
+ [ 7 11 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:21 sec
+Freq@0010@One;LogisticRegression;43.9;44.12;44.12;44.05;"              precision    recall  f1-score   support
+
+          -1       0.35      0.44      0.39        41
+           0       0.33      0.32      0.32        41
+           1       0.59      0.46      0.52        41
+
+    accuracy                           0.41       123
+   macro avg       0.42      0.41      0.41       123
+weighted avg       0.42      0.41      0.41       123
+";"[[18 21 13]
+ [17 13  9]
+ [ 6  7 19]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:25 sec
+Freq@0011@All;SVM;41.2;41.61;41.61;41.44;"              precision    recall  f1-score   support
+
+          -1       0.39      0.49      0.43        41
+           0       0.26      0.22      0.24        41
+           1       0.50      0.46      0.48        41
+
+    accuracy                           0.39       123
+   macro avg       0.39      0.39      0.39       123
+weighted avg       0.39      0.39      0.39       123
+";"[[20 20 11]
+ [14  9 11]
+ [ 7 12 19]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:53 sec
+Freq@0011@One;SVM;43.16;43.39;43.39;43.36;"              precision    recall  f1-score   support
+
+          -1       0.37      0.46      0.41        41
+           0       0.33      0.27      0.30        41
+           1       0.54      0.51      0.53        41
+
+    accuracy                           0.41       123
+   macro avg       0.41      0.41      0.41       123
+weighted avg       0.41      0.41      0.41       123
+";"[[19 20 12]
+ [14 11  8]
+ [ 8 10 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:52 sec
+Freq@0011@All;RandomForest;43.72;44.53;44.71;43.67;"              precision    recall  f1-score   support
+
+          -1       0.42      0.54      0.47        41
+           0       0.36      0.22      0.27        41
+           1       0.53      0.59      0.56        41
+
+    accuracy                           0.45       123
+   macro avg       0.44      0.45      0.43       123
+weighted avg       0.44      0.45      0.43       123
+";"[[22 20 11]
+ [10  9  6]
+ [ 9 12 24]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:11 sec
+Freq@0011@One;RandomForest;42.65;42.85;43.44;42.97;"              precision    recall  f1-score   support
+
+          -1       0.35      0.41      0.38        41
+           0       0.30      0.24      0.27        41
+           1       0.55      0.56      0.55        41
+
+    accuracy                           0.41       123
+   macro avg       0.40      0.41      0.40       123
+weighted avg       0.40      0.41      0.40       123
+";"[[17 21 10]
+ [15 10  8]
+ [ 9 10 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:8 sec
+Freq@0011@All;LogisticRegression;41.95;42.44;42.44;42.13;"              precision    recall  f1-score   support
+
+          -1       0.43      0.49      0.46        41
+           0       0.34      0.27      0.30        41
+           1       0.51      0.56      0.53        41
+
+    accuracy                           0.44       123
+   macro avg       0.43      0.44      0.43       123
+weighted avg       0.43      0.44      0.43       123
+";"[[20 17  9]
+ [12 11  9]
+ [ 9 13 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:22 sec
+Freq@0011@One;LogisticRegression;43.7;44.03;44.03;43.83;"              precision    recall  f1-score   support
+
+          -1       0.38      0.44      0.40        41
+           0       0.32      0.29      0.31        41
+           1       0.61      0.56      0.58        41
+
+    accuracy                           0.43       123
+   macro avg       0.43      0.43      0.43       123
+weighted avg       0.43      0.43      0.43       123
+";"[[18 20 10]
+ [17 12  8]
+ [ 6  9 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:24 sec
+Freq@0100@All;SVM;41.18;41.62;41.62;41.51;"              precision    recall  f1-score   support
+
+          -1       0.42      0.54      0.47        41
+           0       0.31      0.27      0.29        41
+           1       0.51      0.44      0.47        41
+
+    accuracy                           0.41       123
+   macro avg       0.41      0.41      0.41       123
+weighted avg       0.41      0.41      0.41       123
+";"[[22 19 12]
+ [13 11 11]
+ [ 6 11 18]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:50 sec
+Freq@0100@One;SVM;43.41;43.59;43.59;43.63;"              precision    recall  f1-score   support
+
+          -1       0.36      0.46      0.40        41
+           0       0.38      0.34      0.36        41
+           1       0.52      0.41      0.46        41
+
+    accuracy                           0.41       123
+   macro avg       0.42      0.41      0.41       123
+weighted avg       0.42      0.41      0.41       123
+";"[[19 20 14]
+ [13 14 10]
+ [ 9  7 17]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:55 sec
+Freq@0100@All;RandomForest;42.36;42.63;43.28;42.34;"              precision    recall  f1-score   support
+
+          -1       0.41      0.51      0.46        41
+           0       0.43      0.29      0.35        41
+           1       0.48      0.51      0.49        41
+
+    accuracy                           0.44       123
+   macro avg       0.44      0.44      0.43       123
+weighted avg       0.44      0.44      0.43       123
+";"[[21 16 14]
+ [10 12  6]
+ [10 13 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:7 sec
+Freq@0100@One;RandomForest;42.71;42.69;42.65;42.65;"              precision    recall  f1-score   support
+
+          -1       0.35      0.44      0.39        41
+           0       0.39      0.32      0.35        41
+           1       0.49      0.46      0.48        41
+
+    accuracy                           0.41       123
+   macro avg       0.41      0.41      0.41       123
+weighted avg       0.41      0.41      0.41       123
+";"[[18 19 14]
+ [12 13  8]
+ [11  9 19]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:8 sec
+Freq@0100@All;LogisticRegression;41.84;42.33;42.33;41.9;"              precision    recall  f1-score   support
+
+          -1       0.46      0.56      0.51        41
+           0       0.36      0.32      0.34        41
+           1       0.54      0.49      0.51        41
+
+    accuracy                           0.46       123
+   macro avg       0.45      0.46      0.45       123
+weighted avg       0.45      0.46      0.45       123
+";"[[23 17 10]
+ [12 13 11]
+ [ 6 11 20]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@0100@One;LogisticRegression;43.86;44.02;44.02;44.03;"              precision    recall  f1-score   support
+
+          -1       0.35      0.46      0.40        41
+           0       0.36      0.34      0.35        41
+           1       0.60      0.44      0.51        41
+
+    accuracy                           0.41       123
+   macro avg       0.44      0.41      0.42       123
+weighted avg       0.44      0.41      0.42       123
+";"[[19 21 14]
+ [16 14  9]
+ [ 6  6 18]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:25 sec
+Freq@0101@All;SVM;42.26;42.76;42.76;42.58;"              precision    recall  f1-score   support
+
+          -1       0.41      0.51      0.46        41
+           0       0.29      0.24      0.27        41
+           1       0.50      0.46      0.48        41
+
+    accuracy                           0.41       123
+   macro avg       0.40      0.41      0.40       123
+weighted avg       0.40      0.41      0.40       123
+";"[[21 19 11]
+ [13 10 11]
+ [ 7 12 19]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:52 sec
+Freq@0101@One;SVM;43.39;43.69;43.69;43.44;"              precision    recall  f1-score   support
+
+          -1       0.37      0.46      0.41        41
+           0       0.32      0.27      0.29        41
+           1       0.55      0.51      0.53        41
+
+    accuracy                           0.41       123
+   macro avg       0.42      0.41      0.41       123
+weighted avg       0.42      0.41      0.41       123
+";"[[19 21 11]
+ [14 11  9]
+ [ 8  9 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:51 sec
+Freq@0101@All;RandomForest;44.6;45.17;45.25;43.94;"              precision    recall  f1-score   support
+
+          -1       0.46      0.54      0.49        41
+           0       0.33      0.22      0.26        41
+           1       0.50      0.59      0.54        41
+
+    accuracy                           0.45       123
+   macro avg       0.43      0.45      0.43       123
+weighted avg       0.43      0.45      0.43       123
+";"[[22 16 10]
+ [11  9  7]
+ [ 8 16 24]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:11 sec
+Freq@0101@One;RandomForest;45.66;46.15;45.42;46.83;"              precision    recall  f1-score   support
+
+          -1       0.41      0.56      0.47        41
+           0       0.39      0.27      0.32        41
+           1       0.51      0.49      0.50        41
+
+    accuracy                           0.44       123
+   macro avg       0.44      0.44      0.43       123
+weighted avg       0.44      0.44      0.43       123
+";"[[23 20 13]
+ [ 9 11  8]
+ [ 9 10 20]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:9 sec
+Freq@0101@All;LogisticRegression;43.27;43.8;43.8;43.42;"              precision    recall  f1-score   support
+
+          -1       0.45      0.51      0.48        41
+           0       0.30      0.24      0.27        41
+           1       0.51      0.54      0.52        41
+
+    accuracy                           0.43       123
+   macro avg       0.42      0.43      0.42       123
+weighted avg       0.42      0.43      0.42       123
+";"[[21 17  9]
+ [13 10 10]
+ [ 7 14 22]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@0101@One;LogisticRegression;43.79;44.11;44.11;43.88;"              precision    recall  f1-score   support
+
+          -1       0.38      0.46      0.42        41
+           0       0.34      0.29      0.32        41
+           1       0.61      0.56      0.58        41
+
+    accuracy                           0.44       123
+   macro avg       0.44      0.44      0.44       123
+weighted avg       0.44      0.44      0.44       123
+";"[[19 20 11]
+ [16 12  7]
+ [ 6  9 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:24 sec
+Freq@0110@All;SVM;41.4;41.83;41.83;41.62;"              precision    recall  f1-score   support
+
+          -1       0.42      0.54      0.47        41
+           0       0.30      0.27      0.28        41
+           1       0.52      0.41      0.46        41
+
+    accuracy                           0.41       123
+   macro avg       0.41      0.41      0.40       123
+weighted avg       0.41      0.41      0.40       123
+";"[[22 20 11]
+ [13 11 13]
+ [ 6 10 17]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:53 sec
+Freq@0110@One;SVM;42.79;43.06;43.06;42.97;"              precision    recall  f1-score   support
+
+          -1       0.35      0.46      0.40        41
+           0       0.35      0.32      0.33        41
+           1       0.53      0.41      0.47        41
+
+    accuracy                           0.40       123
+   macro avg       0.41      0.40      0.40       123
+weighted avg       0.41      0.40      0.40       123
+";"[[19 21 14]
+ [14 13 10]
+ [ 8  7 17]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:55 sec
+Freq@0110@All;RandomForest;44.13;43.55;44.67;43.73;"              precision    recall  f1-score   support
+
+          -1       0.44      0.59      0.51        41
+           0       0.43      0.29      0.35        41
+           1       0.51      0.51      0.51        41
+
+    accuracy                           0.46       123
+   macro avg       0.46      0.46      0.46       123
+weighted avg       0.46      0.46      0.46       123
+";"[[24 17 13]
+ [ 9 12  7]
+ [ 8 12 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:6 sec
+Freq@0110@One;RandomForest;44.75;45.14;45.59;44.68;"              precision    recall  f1-score   support
+
+          -1       0.36      0.49      0.42        41
+           0       0.35      0.27      0.31        41
+           1       0.51      0.46      0.49        41
+
+    accuracy                           0.41       123
+   macro avg       0.41      0.41      0.40       123
+weighted avg       0.41      0.41      0.40       123
+";"[[20 20 15]
+ [13 11  7]
+ [ 8 10 19]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:8 sec
+Freq@0110@All;LogisticRegression;41.89;42.44;42.44;41.98;"              precision    recall  f1-score   support
+
+          -1       0.44      0.54      0.48        41
+           0       0.35      0.29      0.32        41
+           1       0.54      0.51      0.53        41
+
+    accuracy                           0.45       123
+   macro avg       0.44      0.45      0.44       123
+weighted avg       0.44      0.45      0.44       123
+";"[[22 18 10]
+ [12 12 10]
+ [ 7 11 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@0110@One;LogisticRegression;43.78;43.9;43.9;43.92;"              precision    recall  f1-score   support
+
+          -1       0.36      0.46      0.40        41
+           0       0.35      0.32      0.33        41
+           1       0.58      0.46      0.51        41
+
+    accuracy                           0.41       123
+   macro avg       0.43      0.41      0.42       123
+weighted avg       0.43      0.41      0.42       123
+";"[[19 20 14]
+ [16 13  8]
+ [ 6  8 19]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:24 sec
+Freq@0111@All;SVM;41.95;42.45;42.45;42.24;"              precision    recall  f1-score   support
+
+          -1       0.41      0.51      0.46        41
+           0       0.29      0.24      0.26        41
+           1       0.51      0.46      0.49        41
+
+    accuracy                           0.41       123
+   macro avg       0.40      0.41      0.40       123
+weighted avg       0.40      0.41      0.40       123
+";"[[21 19 11]
+ [14 10 11]
+ [ 6 12 19]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:53 sec
+Freq@0111@One;SVM;43.49;43.79;43.79;43.53;"              precision    recall  f1-score   support
+
+          -1       0.38      0.46      0.42        41
+           0       0.31      0.27      0.29        41
+           1       0.55      0.51      0.53        41
+
+    accuracy                           0.41       123
+   macro avg       0.42      0.41      0.41       123
+weighted avg       0.42      0.41      0.41       123
+";"[[19 21 10]
+ [14 11 10]
+ [ 8  9 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:52 sec
+Freq@0111@All;RandomForest;44.46;45.26;45.11;45.39;"              precision    recall  f1-score   support
+
+          -1       0.44      0.49      0.47        41
+           0       0.39      0.29      0.33        41
+           1       0.47      0.54      0.50        41
+
+    accuracy                           0.44       123
+   macro avg       0.43      0.44      0.43       123
+weighted avg       0.43      0.44      0.43       123
+";"[[20 15 10]
+ [10 12  9]
+ [11 14 22]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:11 sec
+Freq@0111@One;RandomForest;46.09;46.0;45.97;46.09;"              precision    recall  f1-score   support
+
+          -1       0.39      0.46      0.42        41
+           0       0.31      0.22      0.26        41
+           1       0.47      0.51      0.49        41
+
+    accuracy                           0.40       123
+   macro avg       0.39      0.40      0.39       123
+weighted avg       0.39      0.40      0.39       123
+";"[[19 19 11]
+ [11  9  9]
+ [11 13 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:11 sec
+Freq@0111@All;LogisticRegression;42.98;43.48;43.48;43.13;"              precision    recall  f1-score   support
+
+          -1       0.45      0.51      0.48        41
+           0       0.32      0.27      0.29        41
+           1       0.52      0.54      0.53        41
+
+    accuracy                           0.44       123
+   macro avg       0.43      0.44      0.43       123
+weighted avg       0.43      0.44      0.43       123
+";"[[21 17  9]
+ [13 11 10]
+ [ 7 13 22]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:22 sec
+Freq@0111@One;LogisticRegression;43.69;44.01;44.01;43.77;"              precision    recall  f1-score   support
+
+          -1       0.38      0.46      0.42        41
+           0       0.34      0.29      0.32        41
+           1       0.61      0.56      0.58        41
+
+    accuracy                           0.44       123
+   macro avg       0.44      0.44      0.44       123
+weighted avg       0.44      0.44      0.44       123
+";"[[19 20 11]
+ [16 12  7]
+ [ 6  9 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@1000@All;SVM;40.96;41.3;41.3;41.4;"              precision    recall  f1-score   support
+
+          -1       0.40      0.51      0.45        41
+           0       0.26      0.22      0.24        41
+           1       0.46      0.41      0.44        41
+
+    accuracy                           0.38       123
+   macro avg       0.38      0.38      0.38       123
+weighted avg       0.38      0.38      0.38       123
+";"[[21 19 12]
+ [13  9 12]
+ [ 7 13 17]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:53 sec
+Freq@1000@One;SVM;43.62;43.8;43.8;43.79;"              precision    recall  f1-score   support
+
+          -1       0.38      0.46      0.42        41
+           0       0.33      0.32      0.32        41
+           1       0.58      0.46      0.51        41
+
+    accuracy                           0.41       123
+   macro avg       0.43      0.41      0.42       123
+weighted avg       0.43      0.41      0.42       123
+";"[[19 20 11]
+ [16 13 11]
+ [ 6  8 19]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:52 sec
+Freq@1000@All;RandomForest;44.93;45.46;46.11;45.33;"              precision    recall  f1-score   support
+
+          -1       0.46      0.51      0.48        41
+           0       0.47      0.34      0.39        41
+           1       0.51      0.59      0.55        41
+
+    accuracy                           0.48       123
+   macro avg       0.48      0.48      0.47       123
+weighted avg       0.48      0.48      0.47       123
+";"[[21 14 11]
+ [10 14  6]
+ [10 13 24]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:9 sec
+Freq@1000@One;RandomForest;45.04;45.38;45.88;44.52;"              precision    recall  f1-score   support
+
+          -1       0.33      0.44      0.38        41
+           0       0.24      0.17      0.20        41
+           1       0.57      0.56      0.57        41
+
+    accuracy                           0.39       123
+   macro avg       0.38      0.39      0.38       123
+weighted avg       0.38      0.39      0.38       123
+";"[[18 25 11]
+ [15  7  7]
+ [ 8  9 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:6 sec
+Freq@1000@All;LogisticRegression;42.88;43.48;43.48;42.91;"              precision    recall  f1-score   support
+
+          -1       0.43      0.49      0.46        41
+           0       0.28      0.24      0.26        41
+           1       0.49      0.49      0.49        41
+
+    accuracy                           0.41       123
+   macro avg       0.40      0.41      0.40       123
+weighted avg       0.40      0.41      0.40       123
+";"[[20 17  9]
+ [14 10 12]
+ [ 7 14 20]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@1000@One;LogisticRegression;43.57;43.9;43.9;43.63;"              precision    recall  f1-score   support
+
+          -1       0.39      0.46      0.42        41
+           0       0.32      0.29      0.31        41
+           1       0.62      0.56      0.59        41
+
+    accuracy                           0.44       123
+   macro avg       0.44      0.44      0.44       123
+weighted avg       0.44      0.44      0.44       123
+";"[[19 21  9]
+ [16 12  9]
+ [ 6  8 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@1001@All;SVM;41.74;42.23;42.23;42.03;"              precision    recall  f1-score   support
+
+          -1       0.43      0.51      0.47        41
+           0       0.29      0.24      0.26        41
+           1       0.54      0.51      0.53        41
+
+    accuracy                           0.42       123
+   macro avg       0.42      0.42      0.42       123
+weighted avg       0.42      0.42      0.42       123
+";"[[21 19  9]
+ [14 10 11]
+ [ 6 12 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:51 sec
+Freq@1001@One;SVM;43.85;44.11;44.11;43.88;"              precision    recall  f1-score   support
+
+          -1       0.38      0.46      0.42        41
+           0       0.28      0.24      0.26        41
+           1       0.59      0.54      0.56        41
+
+    accuracy                           0.41       123
+   macro avg       0.42      0.41      0.41       123
+weighted avg       0.42      0.41      0.41       123
+";"[[19 22  9]
+ [16 10 10]
+ [ 6  9 22]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:51 sec
+Freq@1001@All;RandomForest;46.07;47.27;46.3;45.85;"              precision    recall  f1-score   support
+
+          -1       0.47      0.54      0.50        41
+           0       0.40      0.29      0.34        41
+           1       0.54      0.61      0.57        41
+
+    accuracy                           0.48       123
+   macro avg       0.47      0.48      0.47       123
+weighted avg       0.47      0.48      0.47       123
+";"[[22 16  9]
+ [11 12  7]
+ [ 8 13 25]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:9 sec
+Freq@1001@One;RandomForest;46.62;47.07;47.15;46.41;"              precision    recall  f1-score   support
+
+          -1       0.40      0.49      0.44        41
+           0       0.33      0.24      0.28        41
+           1       0.53      0.56      0.55        41
+
+    accuracy                           0.43       123
+   macro avg       0.42      0.43      0.42       123
+weighted avg       0.42      0.43      0.42       123
+";"[[20 21  9]
+ [11 10  9]
+ [10 10 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:9 sec
+Freq@1001@All;LogisticRegression;43.27;43.8;43.8;43.38;"              precision    recall  f1-score   support
+
+          -1       0.45      0.51      0.48        41
+           0       0.31      0.24      0.27        41
+           1       0.52      0.56      0.54        41
+
+    accuracy                           0.44       123
+   macro avg       0.43      0.44      0.43       123
+weighted avg       0.43      0.44      0.43       123
+";"[[21 17  9]
+ [13 10  9]
+ [ 7 14 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@1001@One;LogisticRegression;43.06;43.49;43.49;43.1;"              precision    recall  f1-score   support
+
+          -1       0.38      0.44      0.41        41
+           0       0.32      0.29      0.31        41
+           1       0.62      0.59      0.60        41
+
+    accuracy                           0.44       123
+   macro avg       0.44      0.44      0.44       123
+weighted avg       0.44      0.44      0.44       123
+";"[[18 20  9]
+ [17 12  8]
+ [ 6  9 24]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@1010@All;SVM;41.39;41.82;41.82;41.76;"              precision    recall  f1-score   support
+
+          -1       0.42      0.54      0.47        41
+           0       0.29      0.24      0.27        41
+           1       0.50      0.44      0.47        41
+
+    accuracy                           0.41       123
+   macro avg       0.40      0.41      0.40       123
+weighted avg       0.40      0.41      0.40       123
+";"[[22 19 12]
+ [13 10 11]
+ [ 6 12 18]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:53 sec
+Freq@1010@One;SVM;43.82;44.01;44.01;43.94;"              precision    recall  f1-score   support
+
+          -1       0.37      0.46      0.41        41
+           0       0.30      0.27      0.28        41
+           1       0.56      0.46      0.51        41
+
+    accuracy                           0.40       123
+   macro avg       0.41      0.40      0.40       123
+weighted avg       0.41      0.40      0.40       123
+";"[[19 22 11]
+ [15 11 11]
+ [ 7  8 19]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:51 sec
+Freq@1010@All;RandomForest;45.53;46.07;46.81;46.02;"              precision    recall  f1-score   support
+
+          -1       0.43      0.49      0.46        41
+           0       0.43      0.32      0.37        41
+           1       0.53      0.61      0.57        41
+
+    accuracy                           0.47       123
+   macro avg       0.47      0.47      0.46       123
+weighted avg       0.47      0.47      0.46       123
+";"[[20 16 10]
+ [11 13  6]
+ [10 12 25]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:9 sec
+Freq@1010@One;RandomForest;45.48;46.57;46.51;45.45;"              precision    recall  f1-score   support
+
+          -1       0.40      0.46      0.43        41
+           0       0.30      0.20      0.24        41
+           1       0.50      0.59      0.54        41
+
+    accuracy                           0.41       123
+   macro avg       0.40      0.41      0.40       123
+weighted avg       0.40      0.41      0.40       123
+";"[[19 21  8]
+ [10  8  9]
+ [12 12 24]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:8 sec
+Freq@1010@All;LogisticRegression;42.75;43.27;43.27;42.83;"              precision    recall  f1-score   support
+
+          -1       0.43      0.49      0.46        41
+           0       0.29      0.24      0.26        41
+           1       0.50      0.51      0.51        41
+
+    accuracy                           0.41       123
+   macro avg       0.41      0.41      0.41       123
+weighted avg       0.41      0.41      0.41       123
+";"[[20 17  9]
+ [14 10 11]
+ [ 7 14 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:22 sec
+Freq@1010@One;LogisticRegression;43.9;44.22;44.22;43.93;"              precision    recall  f1-score   support
+
+          -1       0.37      0.46      0.41        41
+           0       0.29      0.24      0.27        41
+           1       0.63      0.59      0.61        41
+
+    accuracy                           0.43       123
+   macro avg       0.43      0.43      0.43       123
+weighted avg       0.43      0.43      0.43       123
+";"[[19 23  9]
+ [16 10  8]
+ [ 6  8 24]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@1011@All;SVM;41.47;42.03;42.03;41.75;"              precision    recall  f1-score   support
+
+          -1       0.42      0.51      0.46        41
+           0       0.26      0.22      0.24        41
+           1       0.54      0.51      0.53        41
+
+    accuracy                           0.41       123
+   macro avg       0.41      0.41      0.41       123
+weighted avg       0.41      0.41      0.41       123
+";"[[21 20  9]
+ [14  9 11]
+ [ 6 12 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:52 sec
+Freq@1011@One;SVM;43.73;44.0;44.0;43.75;"              precision    recall  f1-score   support
+
+          -1       0.37      0.46      0.41        41
+           0       0.29      0.24      0.26        41
+           1       0.59      0.54      0.56        41
+
+    accuracy                           0.41       123
+   macro avg       0.42      0.41      0.41       123
+weighted avg       0.42      0.41      0.41       123
+";"[[19 22 10]
+ [16 10  9]
+ [ 6  9 22]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:52 sec
+Freq@1011@All;RandomForest;45.9;46.68;46.48;46.0;"              precision    recall  f1-score   support
+
+          -1       0.47      0.49      0.48        41
+           0       0.39      0.27      0.32        41
+           1       0.50      0.63      0.56        41
+
+    accuracy                           0.46       123
+   macro avg       0.45      0.46      0.45       123
+weighted avg       0.45      0.46      0.45       123
+";"[[20 16  7]
+ [ 9 11  8]
+ [12 14 26]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:9 sec
+Freq@1011@One;RandomForest;46.73;47.2;47.69;47.49;"              precision    recall  f1-score   support
+
+          -1       0.40      0.49      0.44        41
+           0       0.24      0.17      0.20        41
+           1       0.50      0.54      0.52        41
+
+    accuracy                           0.40       123
+   macro avg       0.38      0.40      0.39       123
+weighted avg       0.38      0.40      0.39       123
+";"[[20 22  8]
+ [11  7 11]
+ [10 12 22]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:8 sec
+Freq@1011@All;LogisticRegression;43.08;43.6;43.6;43.19;"              precision    recall  f1-score   support
+
+          -1       0.45      0.51      0.48        41
+           0       0.32      0.24      0.28        41
+           1       0.51      0.56      0.53        41
+
+    accuracy                           0.44       123
+   macro avg       0.43      0.44      0.43       123
+weighted avg       0.43      0.44      0.43       123
+";"[[21 17  9]
+ [12 10  9]
+ [ 8 14 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@1011@One;LogisticRegression;43.17;43.6;43.6;43.2;"              precision    recall  f1-score   support
+
+          -1       0.38      0.44      0.41        41
+           0       0.32      0.29      0.31        41
+           1       0.62      0.59      0.60        41
+
+    accuracy                           0.44       123
+   macro avg       0.44      0.44      0.44       123
+weighted avg       0.44      0.44      0.44       123
+";"[[18 20  9]
+ [17 12  8]
+ [ 6  9 24]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:22 sec
+Freq@1100@All;SVM;41.1;41.52;41.52;41.46;"              precision    recall  f1-score   support
+
+          -1       0.40      0.51      0.45        41
+           0       0.26      0.22      0.24        41
+           1       0.49      0.41      0.45        41
+
+    accuracy                           0.38       123
+   macro avg       0.38      0.38      0.38       123
+weighted avg       0.38      0.38      0.38       123
+";"[[21 20 12]
+ [14  9 12]
+ [ 6 12 17]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:52 sec
+Freq@1100@One;SVM;44.37;44.53;44.53;44.49;"              precision    recall  f1-score   support
+
+          -1       0.37      0.46      0.41        41
+           0       0.33      0.32      0.32        41
+           1       0.58      0.46      0.51        41
+
+    accuracy                           0.41       123
+   macro avg       0.43      0.41      0.42       123
+weighted avg       0.43      0.41      0.42       123
+";"[[19 20 12]
+ [16 13 10]
+ [ 6  8 19]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:54 sec
+Freq@1100@All;RandomForest;45.76;46.04;46.77;46.59;"              precision    recall  f1-score   support
+
+          -1       0.45      0.54      0.49        41
+           0       0.36      0.24      0.29        41
+           1       0.50      0.56      0.53        41
+
+    accuracy                           0.45       123
+   macro avg       0.44      0.45      0.44       123
+weighted avg       0.44      0.45      0.44       123
+";"[[22 17 10]
+ [10 10  8]
+ [ 9 14 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:9 sec
+Freq@1100@One;RandomForest;47.38;47.96;48.02;47.26;"              precision    recall  f1-score   support
+
+          -1       0.42      0.46      0.44        41
+           0       0.32      0.27      0.29        41
+           1       0.55      0.59      0.56        41
+
+    accuracy                           0.44       123
+   macro avg       0.43      0.44      0.43       123
+weighted avg       0.43      0.44      0.43       123
+";"[[19 19  7]
+ [13 11 10]
+ [ 9 11 24]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:8 sec
+Freq@1100@All;LogisticRegression;43.5;44.01;44.01;43.58;"              precision    recall  f1-score   support
+
+          -1       0.42      0.46      0.44        41
+           0       0.28      0.24      0.26        41
+           1       0.48      0.49      0.48        41
+
+    accuracy                           0.40       123
+   macro avg       0.39      0.40      0.39       123
+weighted avg       0.39      0.40      0.39       123
+";"[[19 17  9]
+ [14 10 12]
+ [ 8 14 20]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:24 sec
+Freq@1100@One;LogisticRegression;44.09;44.33;44.33;44.18;"              precision    recall  f1-score   support
+
+          -1       0.38      0.46      0.42        41
+           0       0.35      0.32      0.33        41
+           1       0.61      0.54      0.57        41
+
+    accuracy                           0.44       123
+   macro avg       0.45      0.44      0.44       123
+weighted avg       0.45      0.44      0.44       123
+";"[[19 20 11]
+ [16 13  8]
+ [ 6  8 22]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@1101@All;SVM;41.81;42.34;42.34;42.1;"              precision    recall  f1-score   support
+
+          -1       0.42      0.51      0.46        41
+           0       0.26      0.22      0.24        41
+           1       0.54      0.51      0.53        41
+
+    accuracy                           0.41       123
+   macro avg       0.41      0.41      0.41       123
+weighted avg       0.41      0.41      0.41       123
+";"[[21 20  9]
+ [14  9 11]
+ [ 6 12 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:53 sec
+Freq@1101@One;SVM;44.19;44.53;44.53;44.21;"              precision    recall  f1-score   support
+
+          -1       0.37      0.46      0.41        41
+           0       0.31      0.27      0.29        41
+           1       0.58      0.51      0.55        41
+
+    accuracy                           0.41       123
+   macro avg       0.42      0.41      0.41       123
+weighted avg       0.42      0.41      0.41       123
+";"[[19 21 11]
+ [16 11  9]
+ [ 6  9 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:51 sec
+Freq@1101@All;RandomForest;45.91;46.35;47.33;46.86;"              precision    recall  f1-score   support
+
+          -1       0.50      0.51      0.51        41
+           0       0.35      0.27      0.31        41
+           1       0.48      0.59      0.53        41
+
+    accuracy                           0.46       123
+   macro avg       0.44      0.46      0.45       123
+weighted avg       0.44      0.46      0.45       123
+";"[[21 15  6]
+ [ 9 11 11]
+ [11 15 24]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:9 sec
+Freq@1101@One;RandomForest;47.8;47.67;47.88;47.92;"              precision    recall  f1-score   support
+
+          -1       0.40      0.51      0.45        41
+           0       0.28      0.22      0.25        41
+           1       0.56      0.54      0.55        41
+
+    accuracy                           0.42       123
+   macro avg       0.42      0.42      0.42       123
+weighted avg       0.42      0.42      0.42       123
+";"[[21 21 10]
+ [14  9  9]
+ [ 6 11 22]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:7 sec
+Freq@1101@All;LogisticRegression;43.87;44.33;44.33;44.01;"              precision    recall  f1-score   support
+
+          -1       0.43      0.49      0.45        41
+           0       0.30      0.24      0.27        41
+           1       0.53      0.56      0.55        41
+
+    accuracy                           0.43       123
+   macro avg       0.42      0.43      0.42       123
+weighted avg       0.42      0.43      0.42       123
+";"[[20 18  9]
+ [14 10  9]
+ [ 7 13 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@1101@One;LogisticRegression;43.74;44.12;44.12;43.71;"              precision    recall  f1-score   support
+
+          -1       0.39      0.46      0.42        41
+           0       0.34      0.29      0.32        41
+           1       0.62      0.59      0.60        41
+
+    accuracy                           0.45       123
+   macro avg       0.45      0.45      0.45       123
+weighted avg       0.45      0.45      0.45       123
+";"[[19 20 10]
+ [16 12  7]
+ [ 6  9 24]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@1110@All;SVM;41.67;42.14;42.14;42.06;"              precision    recall  f1-score   support
+
+          -1       0.40      0.51      0.45        41
+           0       0.26      0.22      0.24        41
+           1       0.50      0.44      0.47        41
+
+    accuracy                           0.39       123
+   macro avg       0.39      0.39      0.38       123
+weighted avg       0.39      0.39      0.38       123
+";"[[21 20 12]
+ [14  9 11]
+ [ 6 12 18]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:54 sec
+Freq@1110@One;SVM;44.53;44.63;44.63;44.7;"              precision    recall  f1-score   support
+
+          -1       0.35      0.46      0.40        41
+           0       0.31      0.27      0.29        41
+           1       0.56      0.46      0.51        41
+
+    accuracy                           0.40       123
+   macro avg       0.41      0.40      0.40       123
+weighted avg       0.41      0.40      0.40       123
+";"[[19 22 13]
+ [15 11  9]
+ [ 7  8 19]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:52 sec
+Freq@1110@All;RandomForest;46.05;46.88;47.53;46.32;"              precision    recall  f1-score   support
+
+          -1       0.49      0.51      0.50        41
+           0       0.39      0.32      0.35        41
+           1       0.49      0.56      0.52        41
+
+    accuracy                           0.46       123
+   macro avg       0.46      0.46      0.46       123
+weighted avg       0.46      0.46      0.46       123
+";"[[21 13  9]
+ [11 13  9]
+ [ 9 15 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:13 sec
+Freq@1110@One;RandomForest;47.35;47.41;48.02;47.52;"              precision    recall  f1-score   support
+
+          -1       0.39      0.46      0.42        41
+           0       0.32      0.24      0.28        41
+           1       0.51      0.54      0.52        41
+
+    accuracy                           0.41       123
+   macro avg       0.41      0.41      0.41       123
+weighted avg       0.41      0.41      0.41       123
+";"[[19 20 10]
+ [12 10  9]
+ [10 11 22]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:9 sec
+Freq@1110@All;LogisticRegression;43.34;43.8;43.8;43.42;"              precision    recall  f1-score   support
+
+          -1       0.41      0.46      0.44        41
+           0       0.29      0.24      0.26        41
+           1       0.50      0.51      0.51        41
+
+    accuracy                           0.41       123
+   macro avg       0.40      0.41      0.40       123
+weighted avg       0.40      0.41      0.40       123
+";"[[19 18  9]
+ [14 10 11]
+ [ 8 13 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@1110@One;LogisticRegression;44.41;44.65;44.65;44.52;"              precision    recall  f1-score   support
+
+          -1       0.39      0.49      0.43        41
+           0       0.35      0.29      0.32        41
+           1       0.61      0.56      0.58        41
+
+    accuracy                           0.45       123
+   macro avg       0.45      0.45      0.45       123
+weighted avg       0.45      0.45      0.45       123
+";"[[20 20 11]
+ [15 12  7]
+ [ 6  9 23]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:23 sec
+Freq@1111@All;SVM;41.83;42.45;42.45;42.15;"              precision    recall  f1-score   support
+
+          -1       0.42      0.51      0.46        41
+           0       0.26      0.22      0.24        41
+           1       0.54      0.51      0.53        41
+
+    accuracy                           0.41       123
+   macro avg       0.41      0.41      0.41       123
+weighted avg       0.41      0.41      0.41       123
+";"[[21 20  9]
+ [14  9 11]
+ [ 6 12 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:52 sec
+Freq@1111@One;SVM;44.07;44.43;44.43;44.07;"              precision    recall  f1-score   support
+
+          -1       0.37      0.46      0.41        41
+           0       0.31      0.27      0.29        41
+           1       0.58      0.51      0.55        41
+
+    accuracy                           0.41       123
+   macro avg       0.42      0.41      0.41       123
+weighted avg       0.42      0.41      0.41       123
+";"[[19 21 11]
+ [16 11  9]
+ [ 6  9 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:52 sec
+Freq@1111@All;RandomForest;46.21;47.01;47.07;46.37;"              precision    recall  f1-score   support
+
+          -1       0.44      0.46      0.45        41
+           0       0.34      0.27      0.30        41
+           1       0.52      0.61      0.56        41
+
+    accuracy                           0.45       123
+   macro avg       0.44      0.45      0.44       123
+weighted avg       0.44      0.45      0.44       123
+";"[[19 18  6]
+ [11 11 10]
+ [11 12 25]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:9 sec
+Freq@1111@One;RandomForest;47.68;47.97;48.19;47.7;"              precision    recall  f1-score   support
+
+          -1       0.46      0.61      0.53        41
+           0       0.39      0.29      0.33        41
+           1       0.55      0.51      0.53        41
+
+    accuracy                           0.47       123
+   macro avg       0.47      0.47      0.46       123
+weighted avg       0.47      0.47      0.46       123
+";"[[25 20  9]
+ [ 8 12 11]
+ [ 8  9 21]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:2 min:9 sec
+Freq@1111@All;LogisticRegression;43.76;44.23;44.23;43.9;"              precision    recall  f1-score   support
+
+          -1       0.43      0.49      0.45        41
+           0       0.29      0.24      0.27        41
+           1       0.52      0.54      0.53        41
+
+    accuracy                           0.42       123
+   macro avg       0.41      0.42      0.42       123
+weighted avg       0.41      0.42      0.42       123
+";"[[20 18  9]
+ [14 10 10]
+ [ 7 13 22]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:22 sec
+Freq@1111@One;LogisticRegression;43.96;44.33;44.33;43.94;"              precision    recall  f1-score   support
+
+          -1       0.39      0.46      0.42        41
+           0       0.34      0.29      0.32        41
+           1       0.62      0.59      0.60        41
+
+    accuracy                           0.45       123
+   macro avg       0.45      0.45      0.45       123
+weighted avg       0.45      0.45      0.45       123
+";"[[19 20 10]
+ [16 12  7]
+ [ 6  9 24]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:24 sec
+Word;SVM;56.54;56.62;56.62;57.35;"              precision    recall  f1-score   support
+
+          -1       0.54      0.63      0.58        41
+           0       0.46      0.46      0.46        41
+           1       0.71      0.59      0.64        41
+
+    accuracy                           0.56       123
+   macro avg       0.57      0.56      0.56       123
+weighted avg       0.57      0.56      0.56       123
+";"[[26 17  5]
+ [10 19 12]
+ [ 5  5 24]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:0 min:49 sec
+Word;RandomForest;53.08;52.53;53.11;54.82;"              precision    recall  f1-score   support
+
+          -1       0.49      0.63      0.55        41
+           0       0.47      0.46      0.47        41
+           1       0.73      0.54      0.62        41
+
+    accuracy                           0.54       123
+   macro avg       0.57      0.54      0.55       123
+weighted avg       0.57      0.54      0.55       123
+";"[[26 18  9]
+ [11 19 10]
+ [ 4  4 22]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:1 min:43 sec
+Word;LogisticRegression;57.07;57.34;57.34;57.19;"              precision    recall  f1-score   support
+
+          -1       0.53      0.63      0.58        41
+           0       0.47      0.46      0.47        41
+           1       0.71      0.59      0.64        41
+
+    accuracy                           0.56       123
+   macro avg       0.57      0.56      0.56       123
+weighted avg       0.57      0.56      0.56       123
+";"[[26 17  6]
+ [10 19 11]
+ [ 5  5 24]]";"Sample train:[(-1, 732), (0, 318), (1, 400)]
+RandomUnderSampler train:[(-1, 318), (0, 318), (1, 318)]";"Sample test:[(-1, 95), (0, 41), (1, 66)]
+RandomUnderSampler test:[(-1, 41), (0, 41), (1, 41)]";0 hour:0 min:40 sec
