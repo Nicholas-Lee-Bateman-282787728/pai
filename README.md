@@ -8,5 +8,5 @@ microblogging sources of the phonetic elements (phonemes) and emotional elements
 
 ## Team
 
-- Edwin Puertas, Ph.Dc <epuerta@utb.edu.co>
-- Jorge Andrés Alvarado Valencia, Ph.D <jorge.alvarado@javeriana.edu.co>
+- [Edwin Puertas, PhDc](epuerta@utb.edu.co)
+- [Jorge Andrés Alvarado Valencia, PhD](jorge.alvarado@javeriana.edu.co)
