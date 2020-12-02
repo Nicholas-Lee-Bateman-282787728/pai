@@ -1,2 +1,0 @@
-epitran 1.8
-https://github.com/festvox/flite
